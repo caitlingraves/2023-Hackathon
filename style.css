@@ -97,9 +97,9 @@ body#page2 {
 .svg-icon {
     width: 5em;
     height: 5em;
-    margin-left: 300px; /* Same as the width of the sidebar */
-    height: 100px;
-    padding: 0px 10px;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
   }
   
   .svg-icon path,
