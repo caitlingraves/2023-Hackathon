@@ -57,7 +57,7 @@ body {
 .form svg {
     height: 25px;
     margin-bottom: -10px;
-    margin-left: 10px;
+    margin-left: -45px;
     margin-right: 10px;
 }
 
@@ -88,3 +88,223 @@ a {
     text-decoration: none;
     color: #505050;
 }
+
+/* MAIN MENU *********************************************************************/
+body#page2 {
+    background-color: #f4f3f3;
+}
+
+.svg-icon {
+    width: 5em;
+    height: 5em;
+    margin-left: 300px; /* Same as the width of the sidebar */
+    height: 100px;
+    padding: 0px 10px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #eff2f4;
+  }
+  
+  .svg-icon circle {
+    stroke: #f7f9fc;
+    stroke-width: 2;
+  }
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 400px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #cdcbdb; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    
+  }
+  
+  /* The navigation menu buttons */
+  .sidenav a button {
+    background-color: #cdcbdb;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .sidenav a button:hover {
+    color: #a5a2a2;
+  }
+
+  
+  /* Style page content */
+  .main {
+    margin-left: 300px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  /*TO DO LIST **********************************************************/
+  .assignment1, .assignment2, .assignment3, .assignment4, .assignment5, .assignment6, .assignment7, .assignment8, .assignment9, .assignment10, .assignment11, .assignment12, .assignment13 {
+
+    
+    margin-left: 400px;
+    padding: 20px;
+  }
+
+    /*CALANDER **************************/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Quicksand", sans-serif;
+    }
+      
+      html {
+        font-size: 62.5%;
+      }
+      
+      .container {
+        width: 100%;
+        height: 100vh;
+        background-color: #12121f;
+        color: #eee;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .calendar {
+        border-radius: 16px;
+        width: 45rem;
+        height: 52rem;
+        background-color: #222227;
+        box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+      }
+      
+      .month {
+        border-radius: 16px;
+        width: 100%;
+        height: 12rem;
+        background-color: #b969d1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        text-align: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+      }
+      
+      .month i {
+        font-size: 2.5rem;
+        cursor: pointer;
+      }
+      .month h1 {
+        font-size: 3rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        margin-bottom: 1rem;
+      }
+      
+      .month p {
+        font-size: 1.6rem;
+      }
+      
+      .weekdays {
+        width: 100%;
+        height: 5rem;
+        padding: 0 0.4rem;
+        display: flex;
+        align-items: center;
+      }
+      
+      .weekdays div {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.1rem;
+        width: calc(44.2rem / 7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+      }
+      
+      .days {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.2rem;
+      }
+      
+      .days div {
+        font-size: 1.4rem;
+        margin: 0.3rem;
+        width: calc(40.2rem / 7);
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+        transition: background-color 0.2s;
+      }
+      
+      .days div:hover:not(.today) {
+        background-color: #262626;
+        border: 0.2rem solid #777;
+        cursor: pointer;
+        border-radius:70px;
+      }
+      
+      .prev-date,
+      .next-date {
+        opacity: 0.5;
+      }
+      
+      .today {
+        cursor:pointer;
+        outline:0;
+        border:0;
+        background:transparent;
+        width:50px;
+        height:50px;
+        background-color: #afa1c0;
+        justify-self:center;
+        align-self:center;
+        border-radius:70px;
+      }
+      
+      .button{
+        display:flex;
+        cursor:pointer;
+        outline:0;
+        border:0;
+        background:transparent;
+        font-family: 'Montserrat', sans-serif;
+        font-size:16px;
+        justify-self:center;
+        align-self:center;
+        width:50px;
+        height:50px;
+        border-radius:50px;
+        margin:2px;
+        transition-duration:.2s;
+      }
+      
+      .nav {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-decoration:none;
+        color:#0a3d62;
+        width:40px;
+        height:40px;
+        border-radius:40px;
+        transition-duration:.2s;
+        position:relative;
+      }
