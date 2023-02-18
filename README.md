@@ -13,3 +13,11 @@ Pages:
 * To do list page
 * Opening page
 * Sign in page
+
+Tools:
+* GitHub
+* Spotify API
+
+Coding languages:
+* HTML, CSS
+* Javascript
