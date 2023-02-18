@@ -88,3 +88,64 @@ a {
     text-decoration: none;
     color: #505050;
 }
+
+/* MAIN MENU *********************************************************************/
+body#page2 {
+    background-color: #f4f3f3;
+}
+
+.svg-icon {
+    width: 5em;
+    height: 5em;
+    margin-left: 300px; /* Same as the width of the sidebar */
+    height: 100px;
+    padding: 0px 10px;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #eff2f4;
+  }
+  
+  .svg-icon circle {
+    stroke: #f7f9fc;
+    stroke-width: 2;
+  }
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 400px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #cdcbdb; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    
+  }
+  
+  /* The navigation menu buttons */
+  .sidenav a button {
+    background-color: #cdcbdb;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+  }
+  
+  .sidenav a button:hover {
+    color: #a5a2a2;
+  }
+
+  
+  /* Style page content */
+  .main {
+    margin-left: 300px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
