@@ -69,7 +69,7 @@ body {
     margin-bottom: 30px;
 }
 
-button.signin-btn {
+input.signin-btn {
     width: 100%;
     padding: 12px 10px;
     border: none;
