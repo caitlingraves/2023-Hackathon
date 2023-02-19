@@ -7,7 +7,7 @@
 * Molly Iverson: https://github.com/mollyiverson
 
 ## How to Access: <br />
-https://studdybuddytech.netlify.app/
+https://studdybuddytech.netlify.app/ <br />
 Username: Admin <br />
 Password: User <br />
 
