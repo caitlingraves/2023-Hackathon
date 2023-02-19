@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
 
+        <script src="js/script.js"></script>
+
         <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Titan+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" >
@@ -21,19 +23,31 @@
     <body id="page4">
         
 
-            <a href="main.html" target="_blank">
-                <button type="button"> Home Screen </button>
-            </a>
+        <a href="main.html" target="_blank">
+            <button type="button"> Home Screen </button>
+        </a>
         
-
-        
-        <div class="audio-container">
-                <audio controls> <source src="lofi.mp3" type="audio/mpeg">
-                </audio>
-
+        <!-- clock -->
+        <div class="timer">
+            <h1 id="current-time"> </h1>
         </div>
 
-        
+        <!-- audio -->
+        <div class="audio-container">
+                <audio loop controls> <source src="lofi.mp3" type="audio/mpeg"> </audio>
+        </div>
+
+        <script>
+            let time = document.getElementById("current-time");
+
+
+            setInterval(() => {
+                let d = new Date();
+                time.innerHTML = d.toLocaleTimeString();
+            }, 1000);
+            
+
+        </script>
         
     </body id="page4">
 
