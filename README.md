@@ -1,5 +1,14 @@
 # 2023-Hackathon
 
+Authors:
+* Skyllar Estill: https://github.com/skyllare
+* Sierra Pine: https://github.com/sierratp
+* Caitlin Graves: https://github.com/caitlingraves
+* Molly Iverson: https://github.com/mollyiverson
+
+How to Access:
+https://studdybuddytech.netlify.app/
+
 Creating a daily planner with:
 * Spotify List
 * To-do List - due dates
